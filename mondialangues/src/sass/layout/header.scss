@@ -1,0 +1,58 @@
+.header {
+    background-color: $background_color;
+    width: auto;
+    height: 250px;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    &_title_navbar {
+        @include flex_column_center;
+        width: 80%;
+        
+    }
+
+    &_navbar {
+        width: 100%;
+        color : white;
+        padding-left: 10rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0%;
+            margin: 0%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 2rem;
+
+        }
+
+        li {
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        
+    }
+    
+
+    img {
+    width: 15%;
+    border: solid black 4px;
+    margin: 1.5rem;
+    border-radius: 20px;
+    }
+
+    
+
+}
+
+
