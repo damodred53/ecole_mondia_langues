@@ -1,11 +1,16 @@
 .footer {
     /*@include flex_row_space_around;*/
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     background:$background_color;
     color: $color_text;
-    
+
+    min-height: 15rem;
+
+    &_column {
+        padding-top: 2rem;
+    }
 
     &_bar {
         margin: 2rem;

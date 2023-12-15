@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from '../assets/logo_mondia_langues.webp';
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -13,12 +14,12 @@ const Header = () => {
                 <nav className="header_navbar">
                     <ul>
 
-                        <a href="#"><li>Accueil</li></a>
-                        <a href="#"><li>Qui sommes-nous ?</li></a>
-                        <a href="#"><li>Votre formation</li></a>
-                        <a href="#"><li>Traduction/Interprétation</li></a>
-                        <a href="#"><li>Vie de l'entreprise</li></a>
-                        <a href="#"><li>Contact</li></a>
+                        <li><Link to="/" >Accueil</Link></li>
+                        <li><Link to="/presentation" >Qui sommes-nous ?</Link></li>
+                        <li><Link to="/formation" >Votre formation</Link></li>
+                        <li><Link to="/traduction" >Traduction/Interprétation</Link></li>
+                        <li><Link to="/entreprise" >Vie de l'entreprise</Link></li>
+                        <li><Link to="/contact" >Contact</Link></li>
                     </ul>
                 </nav>
 

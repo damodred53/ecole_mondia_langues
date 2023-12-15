@@ -1,12 +1,11 @@
 import React from "react";
 
-const LittleSquare = () => {
-
+const LittleSquare = (props) => {
 
 
     return(
-        <div className="square">
-            
+        <div className="square" >
+            <p>Données reçues : {props.text_1}</p>
         </div>
     )
 }

@@ -9,11 +9,18 @@
 @import './sass/abstracts/variables.scss';
 
 /* import des components de Sass */
-@import './sass/components/carousel.scss';
-@import './sass/components/dark_bar.scss';
-@import './sass/components/white_bar.scss';
-@import './sass/components/little_square.scss';
-@import './sass/components/big_squares.scss';
+@import './sass/components/landingpage/carousel.scss';
+@import './sass/components/landingpage/dark_bar.scss';
+@import './sass/components/landingpage/white_bar.scss';
+@import './sass/components/landingpage/little_square.scss';
+@import './sass/components/landingpage/big_squares.scss';
+@import './sass/components/landingpage/reverse_white_bar.scss';
+@import './sass/components/landingpage/reverse_big_squares.scss';
+@import './sass/components/landingpage/reversesquare.scss';
+@import './sass/components/qui-sommes-nous/picture_mondiaLangues.scss';
+@import './sass/components/qui-sommes-nous/histoire_mondiaLangues.scss';
+@import './sass/components/qui-sommes-nous/carousel_qui_sommes_nous.scss';
+
 
 /* Import des fichiers Sass pour les layouts */
 @import './sass/layout/header.scss';
