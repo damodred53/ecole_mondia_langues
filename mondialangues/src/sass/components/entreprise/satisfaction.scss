@@ -1,0 +1,35 @@
+.white_big_part {
+
+@include flex_column_center;
+
+
+    &_temoignages_students {
+        @include flex_column_center;
+        background-color: $background_color_temoignages;
+        width: 90%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-top: -120px;
+        font-size: 24px;
+
+        li {
+           list-style-type: none;
+        }
+    }
+}
+
+.div_temoignages {
+    @include flex_column_center;
+
+
+    &_link {
+        color: $color_text_on_white;
+        font-size: 34px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        text-decoration: none;
+        border: 2px black solid;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+}

@@ -5,19 +5,19 @@ const LittleSquare = ({isFirstInstanceContact}) => {
 
 
     return(
-        <div className="square squarecontact" >
+        <div className="square squarecontact div_formation" >
            
-            <>
-            <h4>Nos coordonnées</h4>
-            <div>
-                <p>20 Quai Jehan Fouquet</p>
-                <p>53000 Laval</p>
-                <p>02 43 53 54 17</p>
-                <p>info@mondia-langues.fr</p>
+
+            <h2 className="div_formation_title">Nos coordonnées</h2>
+
+                <p>20 Quai Jehan Fouquet<br/>
+                53000 Laval<br/>
+                02 43 53 54 17<br/>
+                info@mondia-langues.fr </p>
                 <p>Nous écrire ? <a href="mailto: info@mondia-langues.fr">cliquez ici</a></p>
-            </div>
+
             
-            </>
+
             
            
         </div>

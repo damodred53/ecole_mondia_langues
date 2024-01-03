@@ -1,0 +1,18 @@
+
+.list_link {
+    list-style-type: none;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3rem;
+    a {
+        color: $color_text_on_white;
+        text-decoration: none;
+        font-size: 24px;
+        
+
+    }
+    a:hover {
+        font-weight: bold;
+    }
+}

@@ -20,9 +20,16 @@
 @import './sass/components/qui-sommes-nous/picture_mondiaLangues.scss';
 @import './sass/components/qui-sommes-nous/histoire_mondiaLangues.scss';
 @import './sass/components/qui-sommes-nous/carousel_qui_sommes_nous.scss';
+@import './sass/components/traduction/medium_square.scss';
+@import './sass/components/entreprise/satisfaction.scss';
+@import './sass/components/entreprise/bigsquare.scss';
+@import './sass/components/formation/medium_square.scss';
 
 
 /* Import des fichiers Sass pour les layouts */
 @import './sass/layout/header.scss';
 @import './sass/layout/footer.scss';
+
+/* import des fichiers Sass pour les pages */
+@import './sass/pages/traduction.scss';
 

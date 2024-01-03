@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <>
         <Header/>
-        <h2>Ceci est la page de contact</h2>
+        <h2>Contact et coordonnées</h2>
         <DarkBarContact />
         <WhiteBarContact />
         <Footer />
