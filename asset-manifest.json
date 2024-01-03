@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ecole_mondia_langues/static/css/main.5dffdbc5.css",
+    "main.js": "/ecole_mondia_langues/static/js/main.101c6bca.js",
+    "static/js/787.52107271.chunk.js": "/ecole_mondia_langues/static/js/787.52107271.chunk.js",
+    "static/media/témoignages_étudiants.pdf": "/ecole_mondia_langues/static/media/témoignages_étudiants.ff32dec1b0bb8723dd6e.pdf",
+    "static/media/3.jpg": "/ecole_mondia_langues/static/media/3.2a5064568cddc8aa74bb.jpg",
+    "static/media/6.jpg": "/ecole_mondia_langues/static/media/6.f78d832a2598c12cfb51.jpg",
+    "static/media/5.jpg": "/ecole_mondia_langues/static/media/5.e3b967a257409512bfd7.jpg",
+    "static/media/2.jpg": "/ecole_mondia_langues/static/media/2.a150ca6b70c942cce989.jpg",
+    "static/media/4.jpeg": "/ecole_mondia_langues/static/media/4.a1934f9c1ba763a9cf00.jpeg",
+    "static/media/7.jpg": "/ecole_mondia_langues/static/media/7.7547d35fa461af899156.jpg",
+    "static/media/1.webp": "/ecole_mondia_langues/static/media/1.49a88d705d310c9be5cc.webp",
+    "static/media/mondiaLangues.webp": "/ecole_mondia_langues/static/media/mondiaLangues.4eac4c5070e014ad6b85.webp",
+    "static/media/logo_mondia_langues.webp": "/ecole_mondia_langues/static/media/logo_mondia_langues.97251c453f7e211b5c90.webp",
+    "static/media/8.avif": "/ecole_mondia_langues/static/media/8.ce0b341b9b60ff01d5e2.avif",
+    "index.html": "/ecole_mondia_langues/index.html",
+    "main.5dffdbc5.css.map": "/ecole_mondia_langues/static/css/main.5dffdbc5.css.map",
+    "main.101c6bca.js.map": "/ecole_mondia_langues/static/js/main.101c6bca.js.map",
+    "787.52107271.chunk.js.map": "/ecole_mondia_langues/static/js/787.52107271.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dffdbc5.css",
+    "static/js/main.101c6bca.js"
+  ]
+}
