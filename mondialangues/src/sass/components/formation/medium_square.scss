@@ -25,3 +25,27 @@
 .list {
     list-style-type: none;
 }
+
+@media (min-width : 1600px) {
+
+    .div_formation {
+        padding: 0.5rem 2rem 0rem 2rem;
+
+
+        &_paragraph {
+            font-size: 20px;
+    
+        }
+    }
+    
+}
+
+@media (max-width: 1000px ) {
+    .div_formation {
+
+        text-align: center;
+        border: 1px solid black;
+
+    }
+}
+

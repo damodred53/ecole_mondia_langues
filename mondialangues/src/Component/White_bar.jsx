@@ -15,7 +15,7 @@ const WhiteBar = ({isFirstInstance}) => {
             {isFirstInstance ? (
             <div className="div_formation">
                 <h2 className="div_formation_title">Place au e-learning !!</h2>
-                <p className="div_formation_paragraph">Les solutions E-learning permettent d’acquérir et de compléter ses connaissances et ses compétences sans avoir à se déplacer. L’accès au savoir est permanent (au bureau, à domicile….).
+                <p className="div_formation_paragraph">
 
                     Choisir la formation à distance engendre de nombreux avantages :
 

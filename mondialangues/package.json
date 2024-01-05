@@ -2,8 +2,10 @@
   "name": "mondialangues",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://damodred53.github.io/ecole_mondia_langues",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,9 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch main.scss style.css",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "sass": "sass --watch main.scss style.css"
   },
   "eslintConfig": {
     "extends": [

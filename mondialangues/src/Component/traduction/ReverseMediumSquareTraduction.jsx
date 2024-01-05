@@ -1,5 +1,5 @@
 import React from "react";
-import image7 from '../../assets/7.jpg';
+
 
 
 const ReverseMediumSquareTraduction = ({instance}) => {
@@ -16,7 +16,14 @@ switch (instance) {
 
     break;
 
-    case 2 : textContent = <img src={image7} alt="bonjour en beaucoup de langues différentes"/>;
+    case 2 : textContent = 
+    <div className="div_formation">
+            <h2 className="div_formation_title">Vous avez un besoin précis ?</h2>
+            <p className="div_formation_paragraph">
+            Nous vous conseillons dans le choix du mode d'interprétation le mieux adapté. <br />
+            Si vous le souhaitez, nous vous fournissons et nous mettons en place le matériel nécessaire.
+            </p>
+        </div>
     break;
 
     case 3 :textContent = 

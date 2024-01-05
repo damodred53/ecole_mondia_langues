@@ -4,6 +4,13 @@
 
 }
 
+/*@media (max-width: 1000px) {
+    .whitebar {
+        display: flex;
+        justify-content: center
+}
+}*/
+
 .div_firstinstance {
 @include flex_column_center;
 justify-content: center;

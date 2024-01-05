@@ -1,5 +1,5 @@
 .div_carousel {
-    margin-top: 25%;
+    /*margin-top: 25%;*/
     background-color: 	#DCDCDC;
 }
 
@@ -15,6 +15,12 @@
     border-radius: 20px;
 
 }
+@media (min-width : 1550px) {
+    .image_carousel2 {
+        height: 70%;   
+    }
+}
+
 
 .carousel_display {
     display: flex;
