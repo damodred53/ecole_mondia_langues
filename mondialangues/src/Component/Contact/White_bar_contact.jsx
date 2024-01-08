@@ -11,10 +11,10 @@ const WhiteBar = ({isFirstInstanceContact}) => {
 
     return (
         <div className="whitebar">
-          <div >
+
             <LittleSquare />
             <ReverseSquareContact />
-            </div>
+
         </div>
     )
 }

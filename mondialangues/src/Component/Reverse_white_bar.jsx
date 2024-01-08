@@ -16,7 +16,7 @@ const ReverseWhiteBar = ({isFirstInstance}) => {
                   <div className="div_formation">
                   <h2 className="div_formation_title">Les langues enseignées</h2>
                   <p className="div_formation_paragraph">
-                    Nous disposons de fomateurs professionnels pou les langues suivantes : 
+                    Nous disposons de formateurs professionnels pour les langues suivantes : 
                     l'Anglais / le français FLE / l'allemand / le russe / l'italien / le portugais et l'espagnol.
 
                     Pour toute autre demande en langue, vous pouvez nous contacter directement. 

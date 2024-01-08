@@ -15,12 +15,24 @@
     }
 }
 
+@media (max-width: 780px) {
+    .square {
+        top: -100%;
+        left: 0%;
+        width: 100%;
+    }
+    
+    
+}
+
+/* Carré de la page de contact */
+
 .squarecontact{
     @include flex_column_center;
     background-color: $color_square;
     width: 100%;
     border-radius: 20px;
-    max-width: 25%;
+    width: 25%;
     height: 100%;
     position: absolute;
     left: 10%;
@@ -35,11 +47,13 @@
     }
 }
 
+
+
 .reversesquarecontact{
     background-color: $color_square;
     width: 100%;
     border-radius: 20px;
-    max-width: 25%;
+    width: 25%;
     height: 100%;
     position: absolute;
     right: 10%;
@@ -52,4 +66,30 @@
         object-fit: cover;
         border-radius: 20px;
     }
+}
+
+@media (max-width: 770px) {
+
+    .squarecontact {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 0%!important;
+    }
+
+    .reversesquarecontact {
+        top: -100%;
+        left: 0%;
+        right: 0%;
+       width: 100%;
+        border-radius: 0px;
+        box-shadow: none;
+
+        img {
+            border-radius: 0px;
+        }
+    }
+
 }

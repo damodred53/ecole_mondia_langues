@@ -81,14 +81,10 @@
         padding-bottom: 2rem;
         &_navbar {
 
-            
-
             ul {
-                grid-template-columns: 1fr 1fr;
-                
+                grid-template-columns: 1fr 1fr;    
             }
     }
-
     img {
         width: 20%;
     }
@@ -122,7 +118,6 @@
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        /*gap: 10rem;*/
         img {
             width: 30%;
     }}

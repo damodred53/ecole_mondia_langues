@@ -9,9 +9,9 @@ let textContent = "";
 switch (instance) {
     case 1: textContent = 
     <div className="div_formation">
-        <p className="div_formation_paragraph">Le soin apporté au choix de notre traducteur garantit la qualité linguistique ainsi que la pertinence technique de notre traduction.</p>
-        <p className="div_formation_paragraph">La langue maternelle de nos traducteurs est celle de la langue cible de votre document.</p>
-        <p className="div_formation_paragraph">Leurs compétences techniques sont en adéquation avec la nature du travail demandé.</p>
+        <p className="div_formation_paragraph">Le soin apporté au choix de notre traducteur garantit la qualité linguistique ainsi que la pertinence technique de notre traduction.
+        La langue maternelle de nos traducteurs est celle de la langue cible de votre document.
+        Leurs compétences techniques sont en adéquation avec la nature du travail demandé.</p>
     </div>
 
     break;

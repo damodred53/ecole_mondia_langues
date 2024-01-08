@@ -7,7 +7,7 @@ const ReverseLittleSquareEntreprise = () => {
 
     return(
         <div className="reversesquare">
-            <img src={image6}/>
+            <img src={image6} alt="drapeaux"/>
         </div>
     )
 }

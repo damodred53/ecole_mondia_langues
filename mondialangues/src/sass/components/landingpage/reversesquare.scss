@@ -13,3 +13,12 @@
         object-fit: cover;
     }
 } 
+
+@media (max-width: 780px ) {
+
+.reversesquare {
+    top: -100%;
+    right: 0%;
+    width: 100%;  
+}
+}

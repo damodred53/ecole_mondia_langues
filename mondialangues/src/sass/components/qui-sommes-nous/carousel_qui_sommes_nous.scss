@@ -1,6 +1,6 @@
 .div_carousel {
-    /*margin-top: 25%;*/
-    background-color: 	#DCDCDC;
+    background-color: $color_square;
+    border-top: 2px black solid;
 }
 
 .image_background_carousel {
@@ -20,7 +20,6 @@
         height: 70%;   
     }
 }
-
 
 .carousel_display {
     display: flex;
