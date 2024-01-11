@@ -47,7 +47,7 @@ const Header = () => {
                         <li><Link to="/" >Accueil</Link></li>
                         <li><Link to="/presentation" >Qui sommes-nous ?</Link></li>
                         <li><Link to="/formation" >Votre formation</Link></li>
-                        <li><Link to="/traduction" >Traduction/Interprétation</Link></li>
+                        <li><Link to="/traduction" ><small>Traduction/Interprétation</small></Link></li>
                         <li><Link to="/entreprise" >Vie de l'entreprise</Link></li>
                         <li><Link to="/contact" >Contact</Link></li>
                     </ul>
@@ -71,7 +71,7 @@ const Header = () => {
                         <li><Link to="/" >Accueil</Link></li>
                         <li><Link to="/presentation" >Qui sommes-nous ?</Link></li>
                         <li><Link to="/formation" >Votre formation</Link></li>
-                        <li><Link to="/traduction" >Traduction/Interprétation</Link></li>
+                        <li><Link to="/traduction" ><small>Traduction/Interprétation</small></Link></li>
                         <li><Link to="/entreprise" >Vie de l'entreprise</Link></li>
                         <li><Link to="/contact" >Contact</Link></li>
                     </ul>

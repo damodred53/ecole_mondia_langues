@@ -15,4 +15,17 @@
     a:hover {
         font-weight: bold;
     }
+
+    &_network {
+        width: 70%;
+        height: 70%;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .list_link_network {
+        width: 40%;
+    }
 }

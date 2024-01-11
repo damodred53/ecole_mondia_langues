@@ -27,7 +27,7 @@ let textContent = ""
         case 3: textContent = 
         <div className="div_formation">
             <h2 className="div_formation_title">
-                Cours particuliers
+                Cours individuels
             </h2>
             <ol className="div_formation_paragraph list">
             <li>Nous proposons des cours adaptés à vos besoins spécifiques</li>
