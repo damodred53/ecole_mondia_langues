@@ -24,12 +24,18 @@ const ReverseWhiteBar = ({isFirstInstance}) => {
               </div>  
                 ) : (
                 <div className="div_formation">
-                    <h2 className="div_formation_title">Cours individuels et collectifs</h2>
+                    <h2 className="div_formation_title">Place au e-learning !!</h2>
                     <p className="div_formation_paragraph">
-                        Mondia-Langues propose aussi bien des formations individuelles que collectives. Pour s'inscrire 
-                        à nos cours de langues, vous pouvez nous contacter directement, par mail ou bien par téléphone.
+
+                        Choisir la formation à distance engendre de nombreux avantages :
+
+                        - grande souplesse d’organisation
+                        - optimisation du temps
+                        - grande flexibilité pour se former à son rythme
+                        - disponibilité sans contrainte de temps et de lieu
+                        - convivialité et simplicité d’utilisation
                     </p>
-            </div>
+                </div>
                 )
                 }
             </div>

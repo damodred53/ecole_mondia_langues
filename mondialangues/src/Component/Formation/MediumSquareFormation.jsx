@@ -25,6 +25,9 @@ let textContent = ""
         </div>
         break;
         case 3: textContent = 
+
+
+
         <div className="div_formation">
             <h2 className="div_formation_title">
                 Cours individuels
@@ -33,10 +36,11 @@ let textContent = ""
             <li>Nous proposons des cours adaptés à vos besoins spécifiques</li>
             <li>Un planning très souple en fonction de vos contraites</li>
             <li>Un professeur expérimenté (principalement originaire du pays) </li>
-            </ol>
-
-            
+            </ol>   
         </div>
+
+
+
         break;
         case 4 : textContent = <img src={image6} alt="clavier"></img>
         break;

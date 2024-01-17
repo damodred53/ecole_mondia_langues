@@ -8,24 +8,18 @@ import image5 from "../assets/5.jpg";
 const WhiteBar = ({isFirstInstance}) => {
 
 
-
     return (
         <div className="whitebar">
           <div className="bigsquare">
             {isFirstInstance ? (
-            <div className="div_formation">
-                <h2 className="div_formation_title">Place au e-learning !!</h2>
-                <p className="div_formation_paragraph">
-
-                    Choisir la formation à distance engendre de nombreux avantages :
-
-                    - grande souplesse d’organisation
-                    - optimisation du temps
-                    - grande flexibilité pour se former à son rythme
-                    - disponibilité sans contrainte de temps et de lieu
-                    - convivialité et simplicité d’utilisation
-                </p>
-            </div> )
+                <div className="div_formation">
+                    <h2 className="div_formation_title">Cours individuels et collectifs</h2>
+                    <p className="div_formation_paragraph">
+                        Mondia-Langues propose aussi bien des formations individuelles que collectives. Pour s'inscrire 
+                        à nos cours de langues, vous pouvez nous contacter directement, par mail ou bien par téléphone.
+                    </p>
+                </div>
+            )
              : (
                 <div className="div_formation">
                 <h2 className="div_formation_title">Financement CPF</h2>
@@ -33,7 +27,7 @@ const WhiteBar = ({isFirstInstance}) => {
                     L'ensemble de nos formations sont désormais financable via votre compte 
                     compte personnel de formation (CPF).
 
-                    Pour ensavoir si votre compte CPF, cliquez ici : <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/">Lien vers le site officiel</a>.
+                    Pour savoir si votre compte CPF, cliquez ici : <a href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/">Lien vers le site officiel</a>.
 
                 </p>
             </div> 
