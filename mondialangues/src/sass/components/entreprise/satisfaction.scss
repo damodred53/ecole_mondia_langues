@@ -5,12 +5,8 @@
 
     &_temoignages_students {
         @include flex_column_center;
-        background-color: $background_color_temoignages;
-        width: 90%;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        margin-top: -120px;
-        font-size: 24px;
+        
+       
 
         li {
            list-style-type: none;
@@ -66,3 +62,24 @@
     
 }}
 
+.div_table_satisfaction {
+    @include flex_column_center;
+    justify-content: center;
+    background-color: $background_color_temoignages;
+    width: 70%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: -120px;
+    font-size: 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    }
+    .tableau {
+        
+        border-collapse: separate;
+        border-spacing: 15px;
+        width: 80%;
+        margin: 2.5rem;
+        text-align: center;
+
+    }

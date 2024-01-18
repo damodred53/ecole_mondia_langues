@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
 
 
@@ -22,10 +23,10 @@ const Footer = () => {
             <section className="footer_column">
                 <h3>Nos prestations</h3>
                 <ul>
-                    <a href="#"><li>Financement</li></a>
-                    <a href="#"><li>Nos cours de langues</li></a>
-                    <a href="#"><li>Séjours linguistiques</li></a>
-                    <Link to="/traduction"><li>Traduction / Interprétation</li></Link>
+                    <li><Link to="/formation">Financement</Link></li>
+                    <li><Link to="/formation">Nos cours de langues</Link></li>
+                    <li><Link to="/contact">Séjours linguistiques</Link></li>
+                    <li><Link to="/traduction">Traduction / Interprétation</Link></li>
                 </ul>
             </section>
 
@@ -34,10 +35,10 @@ const Footer = () => {
             <section className="footer_column">
                 <h3>Vie de l'entreprise</h3>
                 <ul>
-                    <a href="#"><li>Newsletter</li></a>
-                    <Link to="/entreprise"><li>Nos actualités</li></Link>
-                    <a href="#"><li>Réseaux sociaux</li></a>
-                    <a href="#"><li>Témoignages</li></a>
+                    <li><a href="#" title="La newsletter est actuellement en construction">Newsletter</a></li>
+                    <li><Link to="/">Nos actualités</Link></li>
+                    <li><Link to="/entreprise#social_network">Réseaux sociaux</Link></li>
+                    <li><Link to="/entreprise#témoignages_stagiaires">Témoignages</Link></li>
                 </ul>
             </section>
 

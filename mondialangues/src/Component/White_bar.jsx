@@ -12,7 +12,7 @@ const WhiteBar = ({isFirstInstance}) => {
         <div className="whitebar">
           <div className="bigsquare">
             {isFirstInstance ? (
-                <div className="div_formation">
+                <div className="div_formation" id="nos_actualités">
                     <h2 className="div_formation_title">Cours individuels et collectifs</h2>
                     <p className="div_formation_paragraph">
                         Mondia-Langues propose aussi bien des formations individuelles que collectives. Pour s'inscrire 

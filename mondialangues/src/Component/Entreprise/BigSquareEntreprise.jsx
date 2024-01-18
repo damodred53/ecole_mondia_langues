@@ -6,13 +6,14 @@ import Twitter from '../../assets/logo_twitter.avif';
 
 
 
+
 const BigSquareEntreprise = () => {
 
     return (
 
         <div className="bigsquare" >
-            <div className="div_formation">
-                <h2 className="div_formation_title">Retrouvez-nous sur les réseaux sociaux</h2>
+            <div className="div_formation" id="social_network">
+                <h2 className="div_formation_title" >Retrouvez-nous sur les réseaux sociaux</h2>
                 <ol className="list_link div_formation_paragraph">
                     <li>
                         <a href="#" title="Notre compte est en construction sur ce réseau social" ><img src={Facebook} className="list_link_network" alt="logo de Facebook"></img></a>
