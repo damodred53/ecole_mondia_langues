@@ -6,7 +6,7 @@ const LittleSquareEntreprise = () => {
 
     return(
         <div className="square" >
-            <img src={image8} alt="femme souriante"/>
+            <img src={image8} alt="multimédia"/>
         </div>
     )
 }

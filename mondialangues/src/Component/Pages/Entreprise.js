@@ -6,6 +6,7 @@ import DarkBarEntreprise from "../Entreprise/DarkBarEntreprise";
 import WhiteBarEntreprise from "../Entreprise/WhiteBarEntreprise";
 import WhiteBarEntreprise2 from "../Entreprise/WhiteBarEntreprise2";
 import TemoignagesStagiaires from "../../témoignages_étudiants.pdf";
+import WhiteBarEntreprise3 from "../Entreprise/WhiteBarEntreprise3";
 
 const Entreprise = () => {
   return (
@@ -16,6 +17,8 @@ const Entreprise = () => {
       <WhiteBarEntreprise />
       <DarkBarEntreprise />
       <WhiteBarEntreprise2 />
+      <DarkBarEntreprise />
+      <WhiteBarEntreprise3 />
       <DarkBarEntreprise />
       <section className="white_big_part">
         <div className="div_table_satisfaction">
