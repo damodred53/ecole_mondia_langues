@@ -1,5 +1,5 @@
 import React from "react";
-import image3 from '../../assets/3.jpg';
+import image3 from '../../assets/3.webp';
 
 
 const ReverseMediumSquareTraduction = ({instance}) => {

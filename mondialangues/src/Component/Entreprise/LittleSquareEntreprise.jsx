@@ -1,5 +1,5 @@
 import React from "react";
-import image8 from '../../assets/8.avif';
+import image8 from '../../assets/8.webp';
 
 const LittleSquareEntreprise = () => {
 
