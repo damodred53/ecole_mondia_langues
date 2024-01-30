@@ -2,11 +2,10 @@ import React from "react";
 import flèche_précédent from '../../assets/flèche_précédent.png';
 import flèche_suivant from '../../assets/flèche_suivant.png';
 import { useState } from "react";
-import image1 from "../../assets/1.webp";
-import image2 from "../../assets/2.webp";
-import image3 from "../../assets/3.webp";
-import image4 from "../../assets/4.jpeg";
-import image5 from "../../assets/5.jpg";
+import image1 from "../../assets/formateur_1.jpg";
+import image2 from "../../assets/formateur_2.jpg";
+import image3 from "../../assets/formateur_3.webp";
+
 
 
 
@@ -16,11 +15,11 @@ const Carousel2 = () => {
 
     /* gestion de l'image de ce carousel */
     const arrayPictures = [
-        image1,image2, image3, image4, image5
+        image1,image2, image3,
     ];
 
     const arrayBiographie = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Voici la biographie du deuxième formateur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Voici la biographie du troisième formateur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Kieran McCarthy fondateur et directeur de Mondia-Langues - Formateur anglais", "Alexis McDonald Assistant de direction - formateur anglais", "Florent Guyard - formateur français FLE",
         "Voici la biographie du quatrième formateur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Voici la biographie du cinquième formateur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ];
 
@@ -50,8 +49,8 @@ const Carousel2 = () => {
           key={index}
         >
             <div className="carousel_display">
-                <img src={arrayPictures[index]} className="image_carousel2"></img>
-                <div>
+                <img src={arrayPictures[index]} className="image_carousel2" alt="photographies des formateurs"></img>
+                <div className="div_in_carousel_paragraph">
                     <p>{arrayBiographie[indexText]}</p>
                 </div>
             </div>

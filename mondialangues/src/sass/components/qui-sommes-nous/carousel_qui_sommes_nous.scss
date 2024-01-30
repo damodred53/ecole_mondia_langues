@@ -9,11 +9,14 @@
 }
 
 .image_carousel2{
-    width: 25%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+    /*width: 250%;*/
+    height: 70%;
+    border-radius: 10px;
     border-radius: 20px;
-
+    img {
+        width: 50%;
+        object-fit: cover;
+    }
 }
 @media (min-width : 1550px) {
     .image_carousel2 {
@@ -22,6 +25,7 @@
 }
 
 .carousel_display {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +37,7 @@
 
     div {
         width: 50%;
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 
