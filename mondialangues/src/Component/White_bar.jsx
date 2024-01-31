@@ -1,7 +1,7 @@
 import React from "react";
 import LittleSquare from "./Square";
 import BigSquare from "./BigSquare";
-import image3 from "../assets/3.webp";
+import image3 from "../assets/3_mini.webp";
 import image5 from "../assets/5.jpg";
 
 

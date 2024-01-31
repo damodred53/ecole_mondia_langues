@@ -4,7 +4,7 @@ import flèche_suivant from '../../assets/flèche_suivant.png';
 import { useState } from "react";
 import image1 from "../../assets/formateur_1.jpg";
 import image2 from "../../assets/formateur_2.jpg";
-import image3 from "../../assets/formateur_3.webp";
+import image3 from "../../assets/formateur_3.jpg";
 
 
 

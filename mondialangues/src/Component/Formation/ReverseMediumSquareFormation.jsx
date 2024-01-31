@@ -1,5 +1,5 @@
 import React from "react";
-import image3 from '../../assets/3.webp';
+import image3 from '../../assets/3_mini.webp';
 
 
 const ReverseMediumSquareTraduction = ({instance}) => {
@@ -13,7 +13,7 @@ switch (instance) {
     case 2 : textContent = 
     <div className="div_formation">
         <h2 className="div_formation_title">Pour les entreprises</h2>
-        <p className="div_formation_paragraph">Avec plus de 30 ans de collaboration avec les entreprises, nous pouvons convenir d'un cadre de formation sur mesure avec les entreprises<br/>
+        <p className="div_formation_paragraph">Fort de 30 ans de collaboration avec les entreprises, nous pouvons convenir d'un cadre de formation sur mesure avec les entreprises<br/>
 Il est notamment possible de planifier les formations directement dans les entreprises</p>
     </div>
     break;

@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import Facebook from "../../assets/logo_facebook.webp";
 import Instagram from '../../assets/logo instagram.png';
 import Twitter from '../../assets/logo_twitter.avif';
+import Linkedin from '../../assets/logo_linkedin.png';
 
 
 
@@ -23,6 +24,9 @@ const BigSquareEntreprise = () => {
                     </li>
                     <li>
                         <a href="#" title="Notre compte est en construction sur ce réseau social"><img src={Twitter} className="list_link_network " alt="logo de Twitter"></img></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mondia-langues-a420721aa/?originalSubdomain=fr"><img src={Linkedin} className="list_link_network " alt="logo de Linkedin"></img></a>
                     </li>
                 </ol>
             </div>

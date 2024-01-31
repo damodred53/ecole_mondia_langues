@@ -1,7 +1,7 @@
 import React from "react";
 import ReverseSquare from "./reverseSquare";
 import ReverseBigSquare from "./ReverseBigSquare";
-import image2 from '../assets/2.webp';
+import image2 from '../assets/2_mini.webp';
 import image6 from '../assets/6.jpg';
 
 

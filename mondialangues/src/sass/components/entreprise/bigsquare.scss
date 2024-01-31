@@ -3,8 +3,8 @@
     list-style-type: none;
     display: grid;
     flex-direction: row;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*padding-left: 2rem;*/
     a {
         color: $color_text_on_white;
         text-decoration: none;
@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    
+    margin-top: 0%;
 }
 .file_calendar {
     text-decoration: none;

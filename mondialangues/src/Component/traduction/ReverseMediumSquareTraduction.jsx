@@ -32,7 +32,7 @@ switch (instance) {
                 Interprétation simultanée
             </h2>
             <p className="div_formation_paragraph">
-                Pour vos conférences, congrès, séminaires, formation en salle...;
+                Pour vos conférences, congrès, séminaires, formation en salle...
             </p>
             <p className="div_formation_paragraph">
                 L'interpète restitue le message presque instantanément par microphione pendant que l'orateur s'exprime.

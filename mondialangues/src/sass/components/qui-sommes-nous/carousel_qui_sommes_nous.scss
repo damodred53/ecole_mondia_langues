@@ -9,7 +9,7 @@
 }
 
 .image_carousel2{
-    /*width: 250%;*/
+    width: 250%;
     height: 70%;
     border-radius: 10px;
     border-radius: 20px;
@@ -29,10 +29,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     
     img {
         width:20%;
+        object-fit: cover;
     }
 
     div {

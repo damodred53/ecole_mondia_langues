@@ -34,7 +34,7 @@ let textContent = ""
             </h2>
             <ol className="div_formation_paragraph list">
             <li>Nous proposons des cours adaptés à vos besoins spécifiques</li>
-            <li>Un planning très souple en fonction de vos contraites</li>
+            <li>Un planning très souple en fonction de vos contraintes</li>
             <li>Un professeur expérimenté (principalement originaire du pays) </li>
             </ol>   
         </div>

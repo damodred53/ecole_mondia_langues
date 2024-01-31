@@ -83,3 +83,34 @@
         text-align: center;
 
     }
+
+    @media (max-width : 1200px) {
+        .tableau {
+            font-size: 18px;
+            margin: 1rem;
+    }}
+
+    @media (max-width : 890px) {
+
+        .div_table_satisfaction {
+            width: 90%;
+        }
+
+        .tableau {
+            font-size: 16px;
+            margin: 0.5rem;
+    }}
+
+    @media (max-width : 630px) {
+
+        .div_table_satisfaction {
+            width: 100%;
+        }
+    }
+
+    @media (max-width : 580px) {
+
+        .div_table_satisfaction {
+            display: none;
+        }
+    }

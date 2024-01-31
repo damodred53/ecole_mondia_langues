@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from '../../assets/1.webp';
+import image10 from '../../assets/10.webp';
 import image7 from '../../assets/7.jpg';
 
 
@@ -7,7 +7,7 @@ const MediumSquareTraduction = ({instance}) => {
 let textContent = ""
     switch (instance) {
 
-        case 1: textContent = <img src={image1} alt="une femme parlant plusieurs langues" />;
+        case 1: textContent = <img src={image10} alt="une femme parlant plusieurs langues" />;
         break;
         case 2: textContent =  <img src={image7} alt="bonjour en beaucoup de langues différentes"/>;
         

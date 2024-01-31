@@ -10,11 +10,11 @@ const LittleSquare = ({isFirstInstanceContact}) => {
 
             <h2 className="div_formation_title">Nos coordonnées</h2>
 
-                <p>20 Quai Jehan Fouquet<br/>
+                <p className="div_formation_title_adresse">20 Quai Jehan Fouquet<br/>
                 53000 Laval<br/>
                 02 43 53 54 17<br/>
                 info@mondia-langues.fr </p>
-                <p>Nous écrire ? <a href="mailto: info@mondia-langues.fr">cliquez ici</a></p>
+                <p className="div_formation_title_adresse">Nous écrire ? <a href="mailto: info@mondia-langues.fr">Cliquez ici</a></p>
 
             
 
