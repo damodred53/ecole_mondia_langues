@@ -1,4 +1,5 @@
 {
+  
   "name": "mondialangues",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch main.scss style.css"
+    "sass": "sass --watch main.scss style.css",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
