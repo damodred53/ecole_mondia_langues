@@ -1,5 +1,5 @@
 import React from "react";
-import image4 from "../../assets/4.jpeg";
+
 
 const LittleSquare = ({isFirstInstanceContact}) => {
 

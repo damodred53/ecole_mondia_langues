@@ -7,7 +7,7 @@ const ReverseMediumSquareTraduction = ({instance}) => {
 let textContent = "";
 
 switch (instance) {
-    case 1: textContent = <img src={image3}></img>
+    case 1: textContent = <img src={image3} alt="photographie de présentation"></img>
     break;
 
     case 2 : textContent = 
