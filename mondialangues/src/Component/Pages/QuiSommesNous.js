@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header";
 import Footer from "../footer";
-import mondiaLangues from "../../assets/mondiaLangues.webp";
+import mondiaLangues from "../../assets/Bat_1.JPG";
 import Carousel2 from "../Qui-sommes-nous/Carousel_qui_sommes_nous";
 
 const QuiSommesNous = () => {

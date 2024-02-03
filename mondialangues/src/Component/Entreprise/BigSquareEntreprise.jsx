@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import Facebook from "../../assets/logo_facebook.webp";
 import Instagram from '../../assets/logo instagram.png';
 import Twitter from '../../assets/logo_twitter.avif';

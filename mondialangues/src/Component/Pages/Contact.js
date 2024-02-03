@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <>
         <Header/>
-        <h2>Contact et coordonnées</h2>
+        <h2 className="contact_coordonnées">Contact et coordonnées</h2>
         <DarkBarContact />
         <WhiteBarContact />
         <Footer />

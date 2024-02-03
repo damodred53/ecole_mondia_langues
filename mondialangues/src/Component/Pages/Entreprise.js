@@ -7,16 +7,18 @@ import WhiteBarEntreprise from "../Entreprise/WhiteBarEntreprise";
 import WhiteBarEntreprise2 from "../Entreprise/WhiteBarEntreprise2";
 import TemoignagesStagiaires from "../../témoignages_étudiants.pdf";
 import WhiteBarEntreprise3 from "../Entreprise/WhiteBarEntreprise3";
+import EmptyWhiteBarEntreprise from "../Entreprise/EmptyWhiteBarQuiSommesNous";
 
 const Entreprise = () => {
   return (
     <>
       <Header />
-      <Carousel />
+      <EmptyWhiteBarEntreprise />
       <DarkBarEntreprise />
       <WhiteBarEntreprise />
       <DarkBarEntreprise />
       <WhiteBarEntreprise2 />
+      <Carousel />
       <DarkBarEntreprise />
       <WhiteBarEntreprise3 />
       <DarkBarEntreprise />
