@@ -1,12 +1,12 @@
 import React from "react";
-import image4 from '../../assets/4.webp';
+import Test from '../../assets/test.jpg';
 
 const LittleSquareEntreprise3 = () => {
 
 
     return(
         <div className="square" >
-            <img src={image4}  alt="multimédia"/>
+            <img src={Test} className="speed_speaking_picture" alt="multimédia"/>
         </div>
     )
 }

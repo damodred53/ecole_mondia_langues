@@ -1,5 +1,5 @@
 import React from "react";
-import image6 from '../../assets/6.jpg';
+import image6 from '../../assets/6.webp';
 
 
 const MediumSquareTraduction = ({instance}) => {

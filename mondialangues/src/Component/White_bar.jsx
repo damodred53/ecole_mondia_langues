@@ -1,8 +1,6 @@
 import React from "react";
-import LittleSquare from "./Square";
-import BigSquare from "./BigSquare";
 import image3 from "../assets/3_mini.webp";
-import image5 from "../assets/5.jpg";
+import image5 from "../assets/5_1.webp";
 
 
 const WhiteBar = ({isFirstInstance}) => {
@@ -38,9 +36,9 @@ const WhiteBar = ({isFirstInstance}) => {
           </div>
             <div className="square">
                 {isFirstInstance ? 
-                (<img src={image3}></img>)
+                (<img src={image3} alt=""></img>)
                 :
-                (<img src={image5}></img>)}
+                (<img src={image5} alt=""></img>)}
             </div>
         </div>
     )

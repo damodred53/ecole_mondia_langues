@@ -5,7 +5,7 @@ import { useState } from "react";
 import image1 from "../assets/presentation.webp";
 import image2 from "../assets/5.webp";
 import image3 from "../assets/3.webp";
-import image4 from "../assets/6.webp";
+import image4 from "../assets/9.webp";
 import image5 from "../assets/2.webp";
 
 
@@ -44,8 +44,10 @@ const Carousel = () => {
               style={length === 1 ? { display: 'none' } : {}}
               onClick={handlePrevious}
             >
-              <img src={flèche_précédent} alt="précédente" />
+            <img  src={flèche_précédent} alt="précédente" />
             </button>
+            
+
             <button
               className="button_logement"
               style={length === 1 ? { display: 'none' } : {}}

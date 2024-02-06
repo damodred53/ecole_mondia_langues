@@ -1,8 +1,6 @@
 import React from "react";
-import ReverseSquare from "./reverseSquare";
-import ReverseBigSquare from "./ReverseBigSquare";
 import image2 from '../assets/2_mini.webp';
-import image6 from '../assets/6.jpg';
+import image6 from '../assets/6.webp';
 
 
 const ReverseWhiteBar = ({isFirstInstance}) => {
@@ -41,11 +39,11 @@ const ReverseWhiteBar = ({isFirstInstance}) => {
             </div>
             <div className="reversesquare">
                 {isFirstInstance ? (
-                    <img src={image2} ></img>
+                    <img src={image2} alt="" ></img>
                 )
                 :
                 (
-                    <img src={image6} ></img>
+                    <img src={image6} alt="" ></img>
                 )}
             </div>
         </div>

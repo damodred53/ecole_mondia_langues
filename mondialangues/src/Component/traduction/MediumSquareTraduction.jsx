@@ -1,6 +1,6 @@
 import React from "react";
 import image10 from '../../assets/10.webp';
-import image7 from '../../assets/7.jpg';
+import image7 from '../../assets/7.webp';
 
 
 const MediumSquareTraduction = ({instance}) => {
