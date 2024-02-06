@@ -6,6 +6,7 @@ import image1 from "../../assets/formateur_1.webp";
 import image2 from "../../assets/formateur_2.webp";
 import image3 from "../../assets/formateur_3.webp";
 import image4 from "../../assets/formateur_4.webp";
+import image5 from "../../assets/formateur_5.jpg";
 
 
 
@@ -16,12 +17,12 @@ const Carousel2 = () => {
 
     /* gestion de l'image de ce carousel */
     const arrayPictures = [
-        image1,image2, image3, image4
+        image1,image2, image3, image4 ,image5
     ];
 
     const arrayBiographie = [
-        "Kieran McCarthy fondateur et directeur de Mondia-Langues - Formateur anglais", "Alexis McDonald Assistant de direction - formateur anglais", "  Pauline Gibon formatrice espagnol",
-        "Florent Guyard - formateur français FLE"
+        "Kieran McCarthy fondateur et directeur de Mondia-Langues - Formateur d'anglais", "Alexis McDonald Assistant de direction - Formateur d'anglais", "  Pauline Gibon - Formatrice d'espagnol",
+        "Florent Guyard - Formatrice de français FLE", "Andrea Trapnell - Formatrice d'anglais"
     ];
 
   const [index, setIndex] = useState(0);
@@ -58,14 +59,14 @@ const Carousel2 = () => {
             
           <div className="buttons_logement2">
             <button
-              className="button_logement"
+              className="button_logement_black"
               style={length === 1 ? { display: 'none' } : {}}
               onClick={handlePrevious}
             >
               <img src={flèche_précédent} alt="précédente" />
             </button>
             <button
-              className="button_logement"
+              className="button_logement_black"
               style={length === 1 ? { display: 'none' } : {}}
               onClick={handleNext}
             >

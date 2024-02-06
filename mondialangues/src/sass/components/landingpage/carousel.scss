@@ -45,6 +45,13 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+    &_black {
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 2rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
 }
 
 .index_picture_logement{
